@@ -1,0 +1,13 @@
+{
+  "files.eol": "\n",
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-python.black-formatter",
+  },
+  "black-formatter.args": [
+    "--line-length=88"
+  ],
+  "flake8.args": [
+    "--config=${workspaceFolder}/.flake8"
+  ],
+}
